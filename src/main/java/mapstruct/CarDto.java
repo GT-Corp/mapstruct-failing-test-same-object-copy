@@ -7,7 +7,7 @@ class CarDto {
 
     Long id;
 
-    List<OwnerDto> ownerList = new ArrayList<>();
+    List<OwnerDto> ownerList ;
 
     public Long getId() {
         return id;
